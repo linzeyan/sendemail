@@ -1,0 +1,17 @@
+# Ubuntu
+apt-get install -y build-essential \
+perl-openssl-defaults:amd64 \
+libsocket-perl \
+libsocket6-perl \
+libio-socket-inet6-perl \
+libio-socket-ssl-perl \
+libnet-ssleay-perl
+
+# CentOS
+yum install -y perl-Mozilla-CA \
+perl-IO-Socket-SSL \
+perl-IO-Socket-IP \
+perl-Socket6 \
+perl-Net-SSLeay \
+perl-IO-Socket-INET6 \
+perl-Net-LibIDN
